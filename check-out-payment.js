@@ -5,6 +5,7 @@
 <script>
 $(function() {
 
+    debugger;
     if (window.location.pathname === "/shop/subscription-checkout-payment2") {
         if (sessionStorage.getItem('selectedCoffeesList') 
         && sessionStorage.getItem('totalPrice')
